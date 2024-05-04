@@ -117,11 +117,29 @@ body {
     overflow: hidden; /* Clear float and contain the details */
 }
 
-/* Optional: Media query for responsiveness */
 @media (max-width: 768px) {
+    /* Styles applied when screen width is 768px or less (mobile devices) */
+    .container {
+        flex-direction: column; /* Stack content in a single column */
+        align-items: stretch; /* Stretch items to full width */
+    }
+
+    #researchersList,
+    #researchersListFormer {
+        margin-left: 10px; /* Adjust margin for smaller screens */
+        margin-right: 10px; /* Adjust margin for smaller screens */
+    }
+
+    .mission-item,
+    .mission-image {
+        padding: 0; /* Remove padding on smaller screens */
+        margin-bottom: 20px; /* Add margin between items */
+    }
+
     .researcher-pair {
         flex-direction: column; /* Stack researchers in a single column on smaller screens */
     }
+
     .researcher_former {
         width: 100%; /* Full width for single researcher on smaller screens */
     }
