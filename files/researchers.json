@@ -38,7 +38,7 @@
     },
     {
         "name": "Letizia Pizzini",
-        "title": "PhD candidate",
+        "title": "PhD Student",
         "description": "...",
         "image": "images/Pizzini.jpg",
         "socials": {
@@ -50,7 +50,7 @@
 
     {
         "name": "Davide Pirovano",
-        "title": "PhD candidate",
+        "title": "PhD Student",
         "description": "... ",
         "image": "images/davide.jpeg",
         "socials": {
@@ -61,7 +61,7 @@
     
     {
         "name": "Federico Milanesio",
-        "title": "PhD candidate",
+        "title": "PhD Student",
         "description": "Mostly neural networks dynamics and optimal transport, but I have a whole theory on the statistical mechanics of foosball Elos I can't wait to tell you about",
         "image": "images/fede.png",
         "socials": {
@@ -73,7 +73,7 @@
 
     {
         "name": "Leonardo Agasso",
-        "title": "PhD candidate",
+        "title": "PhD Student",
         "description": "...",
         "image": "images/leo.jpeg",
         "socials": {
@@ -85,7 +85,7 @@
 
     {
         "name": "Niccolò Cirone",
-        "title": "PhD candidate",
+        "title": "PhD Student",
         "description": "...",
         "image": "images/nico.jpeg",
         "socials": {
