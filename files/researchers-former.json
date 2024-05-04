@@ -1,0 +1,104 @@
+[   
+    
+        {
+            "name": "Marta Biondo",
+            "title": "PhD Student",
+            "image": "./images/biondo.jpg",
+            "socials": {
+                "mail": "mailto:marta.biondo@unito.it",
+                "linkedin": "https://www.linkedin.com/in/marta-biondo"
+            }
+        },
+        {
+            "name": "Silvia Lazzardi",
+            "title": "PhD Student",
+            "image": "./images/Lazzardi.jpg",
+            "socials": {
+                "mail": "mailto:Silvia.Lazzardi@unito.it",
+                "linkedin": "https://www.linkedin.com/in/silvia-lazzardi-0870b315a/"
+            }
+        },
+        {
+            "name": "Antonio Francesco Zirattu",
+            "title": "PhD Student",
+            "image": "./images/Zirattu.png",
+            "socials": {
+                "mail": "mailto:antoniofrancesco.zirattu@unito.it"
+            }
+        },
+        {
+            "name": "Maria Fumagalli",
+            "title": "PhD Student",
+            "image": "./images/fumagalli.jpg",
+            "socials": {
+                "mail": "mailto:mariarita.fumagalli@unito.it"
+            }
+        },
+        {
+            "name": "Lorenzo Argante",
+            "title": "PhD Student",
+            "image": "./images/Argante.png",
+            "socials": {
+                "mail": "mailto:lorenzo.argante@unito.it"
+            }
+        },
+        {
+            "name": "Antonio Rosanova",
+            "title": "PhD Student",
+            "image": "./images/rosanova2.jpg",
+            "socials": {
+                "mail": "mailto:antonio.rosanova@gmail.com"
+            }
+        },
+        {
+            "name": "Andrea Mazzolini",
+            "title": "PhD Student",
+            "image": "./images/mazzolini.png",
+            "socials": {
+                "mail": "mailto:andrea.mazzolini@studenti.unito.it"
+            }
+        },
+        {
+            "name": "Alberto Colliva",
+            "title": "PhD Student",
+            "image": "./images/colliva2.jpg",
+            "socials": {
+                "mail": "mailto:colliva@to.infn.it"
+            }
+        },
+        {
+            "name": "Elisa Reale",
+            "title": "PhD Student",
+            "image": "./images/reale2.jpg",
+            "socials": {
+                "mail": "mailto:elisa.reale@unito.it"
+            }
+        },
+        {
+            "name": "Mattia Furlan",
+            "title": "PhD Student",
+            "image": "./images/furlan.jpeg",
+            "socials": {
+                "mail": "mailto:mattia.furlan@unito.it"
+            }
+        },
+        {
+            "name": "Francesco Mottes",
+            "title": "PhD Student",
+            "image": "./images/mottes.jpg",
+            "socials": {
+                "mail": "mailto:francesco.mottes@unito.it"
+            }
+        },
+        {
+            "name": "Eleonora Andreotti",
+            "title": "Post-Doc",
+            "image": "./images/eandreot.jpg",
+            "socials": {
+                "mail": "mailto:eleonora.andreotti@unito.it"
+            }
+        }
+
+    
+    
+]

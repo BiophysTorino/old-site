@@ -1,0 +1,87 @@
+[
+    {
+        "author": "Dal Co A., Lagomarsino M.C., Caselle M., Osella M.",
+        "title": "Stochastic timing in gene expression for simple regulatory strategies.",
+        "journal": "Nucleic Acids Research",
+        "year": "2017",
+        "link": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkw1235"
+    },
+    {
+        "author": "Orso F et al.",
+        "title": "miR-214 and miR-148b Targeting Inhibits Dissemination of Melanoma and Breast Cancer.",
+        "journal": "Cancer Research",
+        "year": "2016",
+        "link": "http://cancerres.aacrjournals.org/content/76/17/5151.long"
+    },
+    {
+        "author": "Cantini L., Medico E., Fortunato S., Caselle M.",
+        "title": "Detection of gene communities in multi-networks reveals cancer drivers.",
+        "journal": "Sci Reports",
+        "year": "2015",
+        "link": "http://www.nature.com/articles/srep17386?shunter=1489658587172"
+    },
+    {
+        "author": "Cantini L. et al.",
+        "title": "MicroRNA-mRNA interactions underlying colorectal cancer molecular subtypes.",
+        "journal": "Nature Communications",
+        "year": "2015",
+        "link": "http://www.nature.com/articles/ncomms9878"
+    },
+    {
+        "author": "Colliva A, Pellegrini R, Testori A, Caselle M.",
+        "title": "Ising-model description of long-range correlations in DNA sequences.",
+        "journal": "Physical Review. E, Statystical, nonlinear, and soft matter Physics",
+        "year": "2015",
+        "link": "https://www.ncbi.nlm.nih.gov/pubmed/26066195"
+    },
+    {
+        "author": "Osella M., Riba A., Testori A., Corà  D., Caselle M.",
+        "title": "Interplay of microRNA and epigenetic regulation in the human regulatory network.",
+        "journal": "Frontiers in Genetics",
+        "year": "2014",
+        "link": "http://journal.frontiersin.org/journal/10.3389/fgene.2014.00345/full"
+    },
+    {
+        "author": "De Grassi A., Iannelli F., Cereda M., Volorio S., Melocchi V., Viel A., Basso G., Laghi L., Caselle M., Ciccarelli F.D.",
+        "title": "Deep sequencing of the X chromosome reveals the proliferation history of colorectal adenomas.",
+        "journal": "Genome Biol.",
+        "year": "2014",
+        "link": "http://genomebiology.com/content/15/8/437"
+    },
+    {
+        "author": "Riba A, Bosia C, El Baroudi M, Ollino L, Caselle M.",
+        "title": "A combination of transcriptional and microRNA regulation improves the stability of the relative concentrations of target genes.",
+        "journal": "PLoS Computational Biology",
+        "year": "2014",
+        "link": "http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003490"
+    },
+    {
+        "author": "Testori A., Caizzi L., Cutrupi S., Friard O., De Bortoli M., Corà D., Caselle M.",
+        "title": "The role of Transposable Elements in shaping the combinatorial interaction of Transcription Factors.",
+        "journal": "BMC Genomics",
+        "year": "2012",
+        "link": "http://www.biomedcentral.com/1471-2164/13/400"
+    },
+    {
+        "author": "Osella M., Bosia C., Corà D., Caselle M.",
+        "title": "The Role of Incoherent MicroRNA-Mediated Feedforward Loops in Noise Buffering.",
+        "journal": "PLoS Computational Biology",
+        "year": "2011",
+        "link": "http://www.ploscompbiol.org/article/info:doi/10.1371/journal.pcbi.1001101"
+    },
+    {
+        "author": "Bosia C., Osella M., El Baroudi M., Corà D., Caselle M.",
+        "title": "Gene autoregulation via intronic microRNAs and its functions.",
+        "journal": "BMC System Biology",
+        "year": "2012",
+        "link": "http://www.biomedcentral.com/1752-0509/6/131"
+    },
+    {
+        "author": "Re A., Corà D., Taverna D., Caselle M.",
+        "title": "Genome-wide survey of microRNA-transcription factor feed-forward regulatory circuits in human.",
+        "journal": "Molecular BioSystems",
+        "year": "2009",
+        "link": "http://www.rsc.org/publishing/journals/MB/article.asp?doi=b900177h"
+    }
+]
+

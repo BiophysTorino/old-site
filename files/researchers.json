@@ -1,0 +1,98 @@
+[   
+    {
+        "name": "Michele Caselle",
+        "title": "Professor",
+        "image": "images/michele.jpeg",
+        "description": "Here we add a brief description",
+        "socials": {
+            "mail": "mailto:michele.caselle@to.infn.it",
+            "github": "https://github.com/mcaselle",
+            "linkedin": "https://www.linkedin.com/in/michele-caselle-17107613/",
+            "publications": "https://pubmed.ncbi.nlm.nih.gov/?term=caselle+michele",
+            "personal-page": "http://personalpages.to.infn.it/~caselle/"
+        }
+    },
+    
+    {
+        "name": "Matteo Osella",
+        "title": "Associate professor",
+        "image": "images/matteo.png",
+        "description": "...",
+        "socials": {
+            "mail": "mailto:matteo.osella@unito.it",
+            "github": "https://github.com/matteo-osella",
+            "linkedin": "https://www.linkedin.com/in/matteo-osella-54413058/",
+            "publications": "https://pubmed.ncbi.nlm.nih.gov/?term=matteo+osella"
+        }
+    },
+    {
+        "name": "Filippo Valle",
+        "title": "Postdoc",
+        "description": "...",
+        "image": "images/valle2.png",
+        "socials": {
+            "mail": "mailto:filippo.valle@unito.it",
+            "linkedin": "https://www.linkedin.com/in/filippo-valle/",
+            "github":"https://github.com/fvalle1"
+        }
+    },
+    {
+        "name": "Letizia Pizzini",
+        "title": "PhD candidate",
+        "description": "...",
+        "image": "images/Pizzini.jpg",
+        "socials": {
+            "mail": "mailto:fletizia.pizzini@unito.it",
+            "github": "https://github.com/letiziapizzini",
+            "linkedin": "https://linkedin.com/in//letizia-pizzini-ba9a061b6"
+        }
+    },
+
+    {
+        "name": "Davide Pirovano",
+        "title": "PhD candidate",
+        "description": "...",
+        "image": "images/davide.jpeg",
+        "socials": {
+            "mail": "mailto:fdavide.pirovano@unito.it",
+            "linkedin": "https://www.linkedin.com/in/davide-pirovano-07aba5220/"
+        }
+    },
+    
+    {
+        "name": "Federico Milanesio",
+        "title": "PhD candidate",
+        "description": "...",
+        "image": "images/fede.png",
+        "socials": {
+            "mail": "mailto:federico.milanesio@unito.it",
+            "github": "https://github.com/FedericoMilanesio",
+            "linkedin": "https://linkedin.com/in/federico-milanesio"
+        }
+    },
+
+    {
+        "name": "Leonardo Agasso",
+        "title": "PhD candidate",
+        "description": "...",
+        "image": "images/leo.jpeg",
+        "socials": {
+            "mail": "mailto:leonardo.agasso@unito.it",
+            "github": "https://github.com/LeonardoAgasso",
+            "linkedin": "https://www.linkedin.com/in/leonardo-agasso-22ba561bb/"
+        }
+    },
+
+    {
+        "name": "Niccolò Cirone",
+        "title": "PhD candidate",
+        "description": "...",
+        "image": "images/nico.jpeg",
+        "socials": {
+            "mail": "mailto:niccolo.cirone@unito.it",
+            "github": "https://github.com/niccociro",
+            "linkedin": "https://www.linkedin.com/in/niccol%C3%B2-cirone-22548a168/"
+        }
+    }
+    
+]

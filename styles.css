@@ -1,0 +1,374 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1; /* Allow content to grow and push footer to the bottom */
+}
+
+
+/* Apply margin to the researchersList container */
+#researchersList {
+    margin-top: 2rem; /* Add top margin */
+    margin-left: 20rem; /* Add left margin */
+    margin-right: 20rem; /* Add left margin */
+    padding: 1rem; /* Optional: Add padding for internal spacing */
+    background-color: #f9f9f9; /* Optional: Add background color */
+}
+
+#researchersListFormer {
+    margin-top: 2rem; /* Add top margin */
+    margin-left: 20rem; /* Add left margin */
+    margin-right: 20rem; /* Add left margin */
+    padding: 1rem; /* Optional: Add padding for internal spacing */
+    background-color: #f9f9f9; /* Optional: Add background color */
+}
+
+
+#mission {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mission-item {
+    flex: 1;
+    padding: 0 1rem;
+    text-align: justify;
+}
+
+.mission-item h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.mission-item p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.mission-image {
+    flex: 1;
+    padding: 0 1rem;
+}
+
+.mission-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.profile-details {
+    flex: 1;
+}
+
+.profile-details h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.profile-details p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+/* Style for individual researcher */
+.researcher_former {
+    width: 48%; /* Adjust width to fit two researchers per line */
+    margin-bottom: 30px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.researcher_former img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Create a circular shape for the image */
+    margin-right: 20px;
+    object-fit: cover; /* Ensure the image covers the circular area */
+}
+
+
+/* Style for profile image */
+.profile-img {
+    float: left; /* Float the image to the left */
+    margin-right: 10px; /* Add margin to separate image from text */
+}
+
+/* Style for profile details */
+.profile-details {
+    overflow: hidden; /* Clear float and contain the details */
+}
+
+/* Optional: Media query for responsiveness */
+@media (max-width: 768px) {
+    .researcher-pair {
+        flex-direction: column; /* Stack researchers in a single column on smaller screens */
+    }
+    .researcher_former {
+        width: 100%; /* Full width for single researcher on smaller screens */
+    }
+}
+
+
+
+.researcher {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.researcher .title {
+    font-style: italic;
+    color: #666;
+}
+
+.researcher img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Create a circular shape for the image */
+    margin-right: 20px;
+    object-fit: cover; /* Ensure the image covers the circular area */
+}
+
+header {
+    background-color: #ffffff; /* White background */
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bottom shadow */
+    padding: 10px 20px; /* Add padding to create space around the content */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Increase margin between navbar items */
+}
+
+nav ul li:last-child {
+    margin-right: 60; /* Remove margin from the last list item */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Dark text color */
+}
+
+nav {
+    text-align: right; /* Align links to the right */
+}
+
+.news-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.news-item {
+    background-color: #fff;
+    border-left: 6px solid #333; /* Left border */
+    border-right: 6px solid #333; /* Right border */
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Vertically center items */
+}
+
+.news-item h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+    flex: 1; /* Allow title to grow and shrink within flexbox */
+}
+
+.date {
+    color: #666;
+    font-style: italic;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.summary {
+    color: #444;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    flex: 2; /* Allow summary to grow and shrink within flexbox */
+}
+
+
+.hero {
+    height: 100vh; /* Full viewport height */
+    background-image: url('images/protein-opac.png'); /* Specify the path to your background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff; /* Text color for overlay */
+    text-shadow: 
+        -2px -2px 0 black,  
+         2px -2px 0 black,
+        -2px  2px 0 black,
+         2px  2px 0 black; /* Create a "border" effect using text-shadow */
+}
+
+
+.hero-content {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+
+    text-shadow: 
+    -3px -3px 0 black,  
+     3px -3px 0 black,
+    -3px  3px 0 black,
+     3px  3px 0 black; /* Create a "border" effect using text-shadow */
+}
+
+.hero p {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.links {
+    margin-top: 10px;
+}
+
+/* Styling for social links container */
+.social-links {
+    margin-top: 1rem;
+}
+
+/* Styling for individual social media icons */
+.social-links img {
+    width: 20px; /* Adjust the width of the icons */
+    height: 20px; /* Adjust the height of the icons */
+    margin-right: 10px; /* Add space between icons */
+    border-radius: 0%; /* Apply border-radius for rounded shape */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Hover effect for social media icons */
+.social-links img:hover {
+    transform: scale(1.2); /* Scale up the icon on hover */
+}
+
+
+.paper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.paper img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.paper-info {
+    flex: 1;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.paper-title {
+    text-decoration: none;
+    color: #007bff; /* Blue link color */
+}
+
+.journal {
+    font-style: italic;
+}
+
+.cite-button {
+    margin-top: 10px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    z-index: 1000;
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.popup-content h2 {
+    margin-bottom: 10px;
+}
+
+.researcher-pair {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Adjust margin between pairs */
+}
+
+.logo-container {
+    margin-left: 20px; /* Adjust margin as needed */
+}
+
+.logo-container a {
+    margin-right: 20px; /* Adjust space between logos */
+}
+
+
+.logo {
+    height: 60px; /* Set the desired height for all logos */
+    width: auto; /* Maintain aspect ratio */
+}
+
+footer {
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f9f9f9;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

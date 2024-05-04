@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="researchers.html">Researchers</a></li>
+                <li><a href="papers.html">Papers</a></li>
+                <li><a href="news.html">News</a></li>   
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+    
+        
+        <div id="papersList">
+            <!-- Papers will be dynamically added here -->
+        </div>
+
+        <!-- Cite Popup -->
+        <div id="citePopup" class="popup">
+            <div class="popup-content">
+                <h2 id="popupTitle">BibTeX Citation</h2>
+                <pre id="popupContent">
+                    <!-- Dynamic content will be updated here -->
+                </pre>
+                <button onclick="closeCitePopup()">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer-container"></div>
+
+    <script src="footer.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
