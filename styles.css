@@ -48,7 +48,6 @@ body {
 .mission-item {
     flex: 1;
     padding: 0 1rem;
-    text-align: justify;
 }
 
 .mission-item h2 {
@@ -252,11 +251,13 @@ nav {
 @media (max-width: 768px) {
     nav ul {
         text-align: center; /* Center-align the menu items */
+        margin-right: 0px; /* Increase margin between navbar items */
     }
 
     nav ul li {
         display: block;
         margin-bottom: 10px; /* Add spacing between vertical menu items */
+        margin-right: 0px; /* Increase margin between navbar items */
     }
 
     header h1 {
@@ -300,6 +301,26 @@ nav {
     font-size: 1.2rem;
     line-height: 1.4;
     flex: 2; /* Allow summary to grow and shrink within flexbox */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .news-item {
+        flex-direction: column; /* Stack items vertically */
+        border-left: none; /* Remove left border on smaller screens */
+        border-right: none; /* Remove right border on smaller screens */
+        padding: 1rem; /* Adjust padding for better spacing */
+    }
+
+    .date {
+        margin-left: 0; /* Remove left margin on date */
+        margin-right: 0; /* Remove right margin on date */
+        text-align: center; /* Center align the date on smaller screens */
+    }
+    .summary{
+        font-size: 0.8rem;
+    }
+    
 }
 
 
