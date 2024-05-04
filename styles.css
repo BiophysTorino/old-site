@@ -206,6 +206,7 @@ body {
         font-size: 0.7em; /* Example font size for researcher description */
         color: #666; /* Example text color for description */
     }
+
     
 }
 
@@ -245,6 +246,23 @@ nav ul li a {
 
 nav {
     text-align: right; /* Align links to the right */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center; /* Center-align the menu items */
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px; /* Add spacing between vertical menu items */
+    }
+
+    header h1 {
+        text-align: center; /* Center-align the menu items */
+        margin-bottom: 18px; /* Increase margin between navbar items */
+    }
 }
 
 .news-container {
@@ -324,6 +342,27 @@ nav {
     margin-bottom: 40px;
 }
 
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+
+    .hero {
+        text-shadow: 
+            -1px -1px 0 black,  
+             1px -1px 0 black,
+            -1px  1px 0 black,
+             1px  1px 0 black; /* Create a "border" effect using text-shadow */
+    }
+
+    .hero h1 {
+        font-size: 2em; /* Decrease font size for smaller screens */
+    }
+
+    .hero p {
+        font-size: 1.3em; /* Decrease font size for smaller screens */
+    }
+}
+
 .links {
     margin-top: 10px;
 }
@@ -381,6 +420,7 @@ nav {
     margin-top: 10px;
 }
 
+/* Base styles for the popup */
 .popup {
     display: none;
     position: fixed;
@@ -390,6 +430,8 @@ nav {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     z-index: 1000;
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+
 }
 
 .popup-content {
@@ -407,6 +449,19 @@ nav {
     margin-bottom: 10px;
 }
 
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .popup-content {
+        width: 90%; /* Adjust width to 90% of viewport width */
+        padding: 10px; /* Reduce padding for smaller screens */
+        border-radius: 0; /* Remove border radius for full-width appearance */
+    }
+
+    .popup-content h2 {
+        font-size: 1.2em; /* Adjust font size for smaller screens */
+    }
+}
+        
 .researcher-pair {
     display: flex;
     justify-content: space-between;
@@ -435,4 +490,25 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .logo-container {
+        margin-left: 0; /* Remove left margin on smaller screens */
+        text-align: center; /* Center-align logos */
+    }
+
+    .logo-container a {
+        margin-right: 10px; /* Adjust space between logos */
+    }
+
+    .logo {
+        height: 30px; /* Set the desired height for all logos */
+        width: auto; /* Maintain aspect ratio */
+    }
+
+    footer {
+        font-size: 0.7rem; /* Decrease font size for smaller screens */
+    }
 }
