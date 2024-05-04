@@ -76,7 +76,7 @@ body {
 .identity-logo img{
     width: auto;
     height: 80px;
-    display: block;
+    display: flex;
 }
 
 /* Media query for mobile devices */
@@ -96,6 +96,14 @@ body {
     .mission-image {
         order: -1; /* Move mission image above mission text */
         margin-bottom: 1rem; /* Add spacing below the mission image */
+    }
+
+    .identity-logo img{
+        height: 50px;
+        justify-content: center; /* Center content horizontally */
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem; /* Add margin between mission items */ 
     }
 }
 
@@ -235,14 +243,16 @@ body {
         max-width: 80%; /* Set maximum width to 80% of screen width */
     }
     
-    /* Optional: Style headings and paragraphs inside researcher_info */
-    .researcher_info h2 {
-        font-size: 0.7em; /* Example font size for researcher name */
+    .profile-details h2 {
+        font-size: 1.2rem;
+        color: #333;
+        margin-bottom: 0.5rem;
     }
     
-    .researcher_info p {
-        font-size: 0.7em; /* Example font size for researcher description */
-        color: #666; /* Example text color for description */
+    .profile-details p {
+        font-size: 0.8rem;
+        color: #666;
+        margin-bottom: 1rem;
     }
 
     
@@ -255,9 +265,9 @@ header {
     padding: 10px 20px; /* Add padding to create space around the content */
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
+h1 {
+
+    text-align: center; /* Center-align the menu items */
 }
 
 nav ul {
@@ -297,9 +307,10 @@ nav {
         margin-right: 0px; /* Increase margin between navbar items */
     }
 
-    header h1 {
+    h1 {
         text-align: center; /* Center-align the menu items */
-        margin-bottom: 18px; /* Increase margin between navbar items */
+        font-size: 1.3em;
+        margin-top: 20px;
     }
 }
 
