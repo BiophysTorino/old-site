@@ -51,7 +51,7 @@
     {
         "name": "Davide Pirovano",
         "title": "PhD candidate",
-        "description": "...",
+        "description": "... ",
         "image": "images/davide.jpeg",
         "socials": {
             "mail": "mailto:fdavide.pirovano@unito.it",
@@ -62,7 +62,7 @@
     {
         "name": "Federico Milanesio",
         "title": "PhD candidate",
-        "description": "Mostly neural networks dynamics and optimal transport, but I have a whole theory on the statistical mechanics of foosball Elos I can't wait to tell you about.",
+        "description": "Mostly neural networks dynamics and optimal transport, but I have a whole theory on the statistical mechanics of foosball Elos I can't wait to tell you about",
         "image": "images/fede.png",
         "socials": {
             "mail": "mailto:federico.milanesio@unito.it",
