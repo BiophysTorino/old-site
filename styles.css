@@ -73,6 +73,27 @@ body {
     border-radius: 8px;
 }
 
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    #mission {
+        flex-direction: column; /* Stack missions vertically on smaller screens */
+        align-items: center; /* Center items horizontally within the container */
+        margin: 10%;
+    }
+
+    .mission-item {
+        flex: none; /* Reset flex property to default (no flex) */
+        width: 100%; /* Set width to 100% for full width on smaller screens */
+        margin-bottom: 2rem; /* Add margin between mission items */
+    }
+
+    .mission-image {
+        order: -1; /* Move mission image above mission text */
+        margin-bottom: 1rem; /* Add spacing below the mission image */
+    }
+}
+
 .profile-details {
     flex: 1;
 }
@@ -390,6 +411,11 @@ nav {
 
     .hero h1 {
         font-size: 2em; /* Decrease font size for smaller screens */
+        text-shadow: 
+        -2px -2px 0 black,  
+         2px -2px 0 black,
+        -2px  2px 0 black,
+         2px  2px 0 black; /* Create a "border" effect using text-shadow */
     }
 
     .hero p {
