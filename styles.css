@@ -533,7 +533,8 @@ footer {
 /* Media query for mobile devices */
 @media (max-width: 768px) {
     .logo-container {
-        margin-left: 0; /* Remove left margin on smaller screens */
+        margin-left: 3px; /* Remove left margin on smaller screens */
+        margin-right: 3px; /* Remove left margin on smaller screens */
         text-align: center; /* Center-align logos */
     }
 
