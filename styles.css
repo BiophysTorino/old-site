@@ -79,7 +79,7 @@ body {
     #mission {
         flex-direction: column; /* Stack missions vertically on smaller screens */
         align-items: center; /* Center items horizontally within the container */
-        margin: 10%;
+        margin: 10%f;
     }
 
     .mission-item {
@@ -411,11 +411,6 @@ nav {
 
     .hero h1 {
         font-size: 2em; /* Decrease font size for smaller screens */
-        text-shadow: 
-        -2px -2px 0 black,  
-         2px -2px 0 black,
-        -2px  2px 0 black,
-         2px  2px 0 black; /* Create a "border" effect using text-shadow */
     }
 
     .hero p {
