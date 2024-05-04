@@ -394,12 +394,10 @@ nav {
 
     .hero h1 {
         font-size: 2em; /* Decrease font size for smaller screens */
-        -webkit-text-stroke: 0px black; /* width and color */
     }
 
     .hero p {
         font-size: 1.5em; /* Decrease font size for smaller screens */
-        -webkit-text-stroke: 0px black; /* width and color */
     }
 }
 
