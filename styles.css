@@ -243,8 +243,6 @@ body {
     
 }
 
-
-
 header {
     background-color: #ffffff; /* White background */
     color: #333;
@@ -254,7 +252,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 
 nav ul {
