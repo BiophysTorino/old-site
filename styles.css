@@ -74,8 +74,8 @@ body {
 }
 
 .identity-logo img{
-    width: 150px;
-    height: auto;
+    width: auto;
+    height: 80px;
     display: block;
 }
 
