@@ -163,17 +163,28 @@ body {
         flex-direction: row; /* Stack items vertically */
     }
 
-     /* Stack image above profile details for smaller screens */
-     .researcher {
+    /* Stack image above profile details for smaller screens */
+    .researcher {
         flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items horizontally */
+        margin-left: 15%; /* Add spacing between image and text */
+        margin-right: 15%; /* Add spacing between image and text */
+        align-items: left;   /* Center items horizontally */
     }
 
     /* Adjust margin for the image on smaller screens */
-    .researcher img {
-        max-width: calc(100% ); /* Set max-width to one-third of the page width */
+    .researcher .profile-img {
+        display: flex; /* Use flexbox layout */
+        justify-content: center; /* Center content horizontally */
+        max-width: calc(100%); /* Set max-width minus margin for image */
         height: auto; /* Maintain aspect ratio */
         margin-bottom: 10px; /* Add bottom margin for spacing */
+    }
+
+    .researcher .profile-img img {
+        width: 150px; /* Set width of the image */
+        height: 150px; /* Set height of the image */
+        border-radius: 50%; /* Create a circular shape for the image */
+        object-fit: cover; /* Ensure the image covers the circular area */
     }
 
     .researcher_former {
@@ -194,11 +205,13 @@ body {
     
     .researcher_info {
         flex-grow: 1; /* Allow the info section to grow and take up remaining space */
+        flex: 1; /* Allow info section to take remaining space */
+        max-width: 80%; /* Set maximum width to 80% of screen width */
     }
     
     /* Optional: Style headings and paragraphs inside researcher_info */
     .researcher_info h2 {
-        font-size: 0.9em; /* Example font size for researcher name */
+        font-size: 0.7em; /* Example font size for researcher name */
     }
     
     .researcher_info p {
