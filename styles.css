@@ -161,6 +161,7 @@ body {
 
     .researcher_former {
         width: 100%; /* Full width for single researcher on smaller screens */
+        flex-direction: row; /* Stack items vertically */
     }
 
      /* Stack image above profile details for smaller screens */
@@ -171,17 +172,41 @@ body {
 
     /* Adjust margin for the image on smaller screens */
     .researcher img {
-        margin-right: 0; /* Remove right margin */
+        max-width: calc(100% ); /* Set max-width to one-third of the page width */
+        height: auto; /* Maintain aspect ratio */
         margin-bottom: 10px; /* Add bottom margin for spacing */
     }
 
+    .researcher_former {
+        width: 100%; /* Full width for single researcher block on smaller screens */
+        display: flex; /* Use flexbox layout */
+        align-items: center; /* Center items vertically */
+        margin-bottom: 20px; /* Add spacing between each researcher block */
+    }
+    
     .researcher_former img {
-        width: 60px;
-        height: 60px;
+        width: 90px; /* Set a fixed width for the circular image */
+        height: 90px; /* Set a fixed height for the circular image */
         border-radius: 50%; /* Create a circular shape for the image */
-        margin-right: 20px;
+        margin-right: 20px; /* Add spacing between image and text */
+        flex-shrink: 0; /* Prevent image from shrinking */
         object-fit: cover; /* Ensure the image covers the circular area */
     }
+    
+    .researcher_info {
+        flex-grow: 1; /* Allow the info section to grow and take up remaining space */
+    }
+    
+    /* Optional: Style headings and paragraphs inside researcher_info */
+    .researcher_info h2 {
+        font-size: 0.9em; /* Example font size for researcher name */
+    }
+    
+    .researcher_info p {
+        font-size: 0.7em; /* Example font size for researcher description */
+        color: #666; /* Example text color for description */
+    }
+    
 }
 
 
