@@ -1,6 +1,6 @@
 # Biophysics Research Site
 
-Welcome to the Biophysics research site repository of the Biophysics group at the University of Turin (Unito) and the National Institute for Nuclear Physics (INFN). This repository hosts the source code and content for our research website.
+Welcome to the Biophys research site repository of the Biophysics group at the University of Turin (Unito) and the National Institute for Nuclear Physics (INFN). This repository hosts the source code and content for our research website.
 
 ## About
 
