@@ -368,11 +368,6 @@ nav {
     align-items: center;
     text-align: center;
     color: #fff; /* Text color for overlay */
-    text-shadow: 
-        -2px -2px 0 black,  
-         2px -2px 0 black,
-        -2px  2px 0 black,
-         2px  2px 0 black; /* Create a "border" effect using text-shadow */
 }
 
 
@@ -384,37 +379,31 @@ nav {
 .hero h1 {
     font-size: 3.5em;
     margin-bottom: 20px;
-
-    text-shadow: 
-    -3px -3px 0 black,  
-     3px -3px 0 black,
-    -3px  3px 0 black,
-     3px  3px 0 black; /* Create a "border" effect using text-shadow */
+    font-weight: bold;
+    -webkit-text-stroke: 2.7px black; /* width and color */
+    
 }
 
 .hero p {
     font-size: 2em;
     margin-bottom: 40px;
+    font-weight: bold;
+    -webkit-text-stroke: 1.5px black; /* width and color */
 }
+
 
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {
 
-    .hero {
-        text-shadow: 
-            -1px -1px 0 black,  
-             1px -1px 0 black,
-            -1px  1px 0 black,
-             1px  1px 0 black; /* Create a "border" effect using text-shadow */
-    }
-
     .hero h1 {
         font-size: 2em; /* Decrease font size for smaller screens */
+        -webkit-text-stroke: 1.5px black; /* width and color */
     }
 
     .hero p {
-        font-size: 1.3em; /* Decrease font size for smaller screens */
+        font-size: 1.5em; /* Decrease font size for smaller screens */
+        -webkit-text-stroke: 1px black; /* width and color */
     }
 }
 
