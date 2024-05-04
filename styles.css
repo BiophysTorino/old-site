@@ -159,22 +159,21 @@ body {
         flex-direction: column; /* Stack researchers in a single column on smaller screens */
     }
 
-    .researcher {
-        width: 100%; /* Full width for single researcher on smaller screens */
-    }
-
     .researcher_former {
         width: 100%; /* Full width for single researcher on smaller screens */
     }
 
-    .researcher img {
-        width: 60px;
-        height: 60px;
-        border-radius: 50%; /* Create a circular shape for the image */
-        margin-right: 20px;
-        object-fit: cover; /* Ensure the image covers the circular area */
+     /* Stack image above profile details for smaller screens */
+     .researcher {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
     }
-    
+
+    /* Adjust margin for the image on smaller screens */
+    .researcher img {
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 10px; /* Add bottom margin for spacing */
+    }
 
     .researcher_former img {
         width: 60px;
