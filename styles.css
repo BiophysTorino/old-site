@@ -581,6 +581,22 @@ footer {
     width: 100%;
 }
 
+footer a {
+    /* Styles for unvisited links */
+    color: rgb(0, 0, 0); /* Change color for unvisited links */
+    text-decoration: none; /* Remove underline from unvisited links */
+}
+
+footer a:visited {
+    /* Styles for visited links */
+    color: rgb(0, 0, 0); /* Change color for visited links */
+}
+
+footer a:hover {
+    /* Styles for link on hover (optional) */
+    text-decoration: underline; /* Add underline on hover */
+}
+
 /* Media query for mobile devices */
 @media (max-width: 768px) {
     .logo-container {
