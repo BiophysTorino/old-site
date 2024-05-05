@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto, sans-serif;
+    font-family: Roboto;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
@@ -79,10 +79,16 @@ body {
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {
+
+    body {
+        font-family: Roboto;
+    }
+    
+
     #mission {
         flex-direction: column; /* Stack missions vertically on smaller screens */
         align-items: center; /* Center items horizontally within the container */
-        margin: 10%f;
+        margin: 10%;
     }
 
     .mission-item {
@@ -328,9 +334,13 @@ nav {
     padding: 1rem;
 }
 
+.news-item .title-link-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+    }
+
 .news-item {
-    background-color: #fff;
-    border-left: 4px solid #b6abab; /* Left border */
+    border-top: 1px solid #000000; /* Left border */
     padding: 1.5rem;
     margin-bottom: 2rem;
     align-items: center; /* Vertically center items */
@@ -341,7 +351,9 @@ nav {
     color: #333;
     margin-bottom: 0.5rem;
     width: 100%;
+    text-decoration: underline;
 }
+
 .news-item hr{
     width: 40%;
     text-align: left;
@@ -377,10 +389,15 @@ nav {
         padding: 1rem; /* Adjust padding for better spacing */
     }
 
+    .news-item .title-link-container {
+        display: flex; /* Use flexbox for layout */
+        text-align: center;
+        }
+
     .news-item a img{
-        display: block;
-        margin-left: auto;
-        width: 5%;
+        margin-left: 0px;
+        width: 15px;
+
     }
 
     .news-item h2 {
@@ -390,7 +407,6 @@ nav {
 
     .news-item hr{
         width: 40%;
-        text-align: center;
         margin-left: auto;
     }
 
@@ -480,6 +496,7 @@ nav {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    font-size: 1.2rem;
 }
 
 .paper img {
