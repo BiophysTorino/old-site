@@ -331,7 +331,7 @@ nav {
 }
 
 .news-item h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: #333;
     margin-bottom: 0.5rem;
     flex: 1; /* Allow title to grow and shrink within flexbox */
@@ -339,8 +339,7 @@ nav {
 
 .date {
     color: #666;
-    font-style: italic;
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-right: 2rem;
 }
 
@@ -360,13 +359,18 @@ nav {
         padding: 1rem; /* Adjust padding for better spacing */
     }
 
+    .news-item h2 {
+        font-size: 1.1rem;
+    }
+
     .date {
+        font-size: 1rem;
         margin-left: 0; /* Remove left margin on date */
         margin-right: 0; /* Remove right margin on date */
         text-align: center; /* Center align the date on smaller screens */
     }
     .summary{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
     
 }
