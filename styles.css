@@ -25,7 +25,6 @@ body {
     margin-left: 20rem; /* Add left margin */
     margin-right: 20rem; /* Add left margin */
     padding: 1rem; /* Optional: Add padding for internal spacing */
-    background-color: #f9f9f9; /* Optional: Add background color */
 }
 
 #researchersListFormer {
@@ -33,7 +32,6 @@ body {
     margin-left: 20rem; /* Add left margin */
     margin-right: 20rem; /* Add left margin */
     padding: 1rem; /* Optional: Add padding for internal spacing */
-    background-color: #f9f9f9; /* Optional: Add background color */
 }
 
 
@@ -107,9 +105,6 @@ body {
     }
 }
 
-.profile-details {
-    flex: 1;
-}
 
 .profile-details h2 {
     font-size: 1.5rem;
@@ -220,7 +215,6 @@ p.description {
         display: flex; /* Use flexbox layout */
         justify-content: center; /* Center content horizontally */
         max-width: calc(100%); /* Set max-width minus margin for image */
-        height: auto; /* Maintain aspect ratio */
         margin-bottom: 10px; /* Add bottom margin for spacing */
     }
 
