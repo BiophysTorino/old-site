@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     researcherDiv.classList.add('researcher_former');
 
                     const socialLinks = Object.entries(researcher.socials).map(([platform, url]) => {
-                        return `<a href="${url}" target="_blank"><img src="images/${platform}.svg" alt="${platform}"></a>`;
+                        return `<a href="${url}" target="_blank"><img src="images/icons/${platform}.svg" alt="${platform}"></a>`;
                     }).join('');
 
                     researcherDiv.innerHTML = `
