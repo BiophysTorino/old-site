@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             // Construct paper info HTML
             const paperInfoHTML = `
-                <img src="images/doc.svg" alt="Document Icon">
+                <img src="images/icons/doc.svg" alt="Document Icon">
                 <div class="paper-info">
                     <p><span class="author">${paper.author} (${paper.year})</span></p>
                     <p><a href="${paper.link}" target="_blank" class="paper-title">${paper.title}</a></p>
