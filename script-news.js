@@ -15,8 +15,28 @@ document.addEventListener('DOMContentLoaded', () => {
                 articleDiv.innerHTML = `
                     <h2>${article.title}</h2>
                     <p class="date">${article.date}</p>
+                    <hr>
                     <p class="summary">${article.summary}</p>
                 `;
+
+                // Check if the article has a link field
+                if (article.link) {
+                    // Create a link element with the external link icon
+                    const linkElement = document.createElement('a');
+                    linkElement.href = article.link;
+                    linkElement.target = '_blank'; // Open link in a new tab
+
+                    // Create an icon element for the external link
+                    const externalLinkIcon = document.createElement('img');
+                    externalLinkIcon.src = 'images/icons/external-link.svg';
+                    externalLinkIcon.alt = 'External Link';
+
+                    // Append the icon to the link element
+                    linkElement.appendChild(externalLinkIcon);
+
+                    // Append the link element to the articleDiv
+                    articleDiv.appendChild(linkElement);
+                }
 
                 // Append the populated div to the newsContainer
                 newsContainer.appendChild(articleDiv);

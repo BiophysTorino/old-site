@@ -340,7 +340,6 @@ nav {
     border-right: 6px solid #333; /* Right border */
     padding: 1.5rem;
     margin-bottom: 2rem;
-    display: flex; /* Use flexbox layout */
     align-items: center; /* Vertically center items */
 }
 
@@ -348,24 +347,36 @@ nav {
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 0.5rem;
-    flex: 1; /* Allow title to grow and shrink within flexbox */
+    width: 100%;
+}
+.news-item hr{
+    width: 40%;
+    text-align: left;
+    margin-left:0;
 }
 
 .date {
     color: #666;
     margin-left: 1rem;
     margin-right: 2rem;
+    width: 100%;
 }
 
 .summary {
     color: #444;
     font-size: 1.2rem;
     line-height: 1.4;
-    flex: 2; /* Allow summary to grow and shrink within flexbox */
 }
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {
+
+    .news-container {
+        flex-direction: column; /* Stack content in a single column */
+        align-items: center; /* Stretch items to full width *
+        
+    }
+
     .news-item {
         flex-direction: column; /* Stack items vertically */
         border-left: none; /* Remove left border on smaller screens */
@@ -373,18 +384,31 @@ nav {
         padding: 1rem; /* Adjust padding for better spacing */
     }
 
+    .news-item a img{
+        display: block;
+        margin-left: auto;
+        width: 5%;
+    }
+
     .news-item h2 {
-        font-size: 1.1rem;
+        font-size: 1rem;
+        text-align: center; /* Center align the title */
+    }
+
+    .news-item hr{
+        width: 40%;
+        text-align: center;
+        margin-left: auto;
     }
 
     .date {
-        font-size: 1rem;
+        font-size: 0.8rem;
         margin-left: 0; /* Remove left margin on date */
         margin-right: 0; /* Remove right margin on date */
         text-align: center; /* Center align the date on smaller screens */
     }
     .summary{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     
 }

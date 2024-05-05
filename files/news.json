@@ -3,5 +3,11 @@
         "title": "Exciting New Activity",
         "date": "May 2, 2024",
         "summary": "One member of our team, Davide Pirovano, has been selected to to partecipate to the Dragon Boat festival in China as a member of a rowing team. We wish him luck on his adventure"
+    },
+    {
+        "title": "Paper published",
+        "date": "January 01, 2024",
+        "summary": "Great to see our work on the cover of Nature Machine Intelligence. Many thanks to Marco Gherardi for kick-starting this project and bringing us on board!",
+        "link": "https://www.nature.com/natmachintell/volumes/6/issues/1"
     }
 ]
