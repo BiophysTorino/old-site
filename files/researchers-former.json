@@ -23,7 +23,8 @@
             "title": "PhD Student",
             "image": "./images/Zirattu.png",
             "socials": {
-                "mail": "antoniofrancesco.zirattu@unito.it"
+                "mail": "antoniofrancesco.zirattu@unito.it",
+                "linkedin": "https://www.linkedin.com/in/antonio-francesco-zirattu-412851230/"
             }
         },
         {
@@ -39,7 +40,8 @@
             "title": "PhD Student",
             "image": "./images/Argante.png",
             "socials": {
-                "mail": "lorenzo.argante@unito.it"
+                "mail": "lorenzo.argante@unito.it",
+                "linkedin": "https://www.linkedin.com/in/largante/"
             }
         },
         {
@@ -47,7 +49,8 @@
             "title": "PhD Student",
             "image": "./images/rosanova2.jpg",
             "socials": {
-                "mail": "antonio.rosanova@gmail.com"
+                "mail": "antonio.rosanova@gmail.com",
+                "linkedin": "https://www.linkedin.com/in/antonio-rosanova-27b49988/"
             }
         },
         {
@@ -55,7 +58,8 @@
             "title": "PhD Student",
             "image": "./images/mazzolini.png",
             "socials": {
-                "mail": "andrea.mazzolini@studenti.unito.it"
+                "mail": "andrea.mazzolini@studenti.unito.it",
+                "linkedin": "https://www.linkedin.com/in/andrea-mazzolini-bb71a189/"
             }
         },
         {
@@ -63,7 +67,8 @@
             "title": "PhD Student",
             "image": "./images/colliva2.jpg",
             "socials": {
-                "mail": "colliva@to.infn.it"
+                "mail": "colliva@to.infn.it",
+                "linkedin": "https://www.linkedin.com/in/acolliva/"
             }
         },
         {
@@ -79,7 +84,8 @@
             "title": "PhD Student",
             "image": "./images/furlan.jpeg",
             "socials": {
-                "mail": "mattia.furlan@unito.it"
+                "mail": "mattia.furlan@unito.it",
+                "linkedin": "https://www.linkedin.com/in/mattia-furlan-277527171/"
             }
         },
         {
@@ -87,7 +93,8 @@
             "title": "PhD Student",
             "image": "./images/mottes.jpg",
             "socials": {
-                "mail": "francesco.mottes@unito.it"
+                "mail": "francesco.mottes@unito.it",
+                "linkedin": "https://www.linkedin.com/in/francesco-mottes"
             }
         },
         {
@@ -95,7 +102,8 @@
             "title": "Post-Doc",
             "image": "./images/eandreot.jpg",
             "socials": {
-                "mail": "eleonora.andreotti@unito.it"
+                "mail": "eleonora.andreotti@unito.it",
+                "linkedin": "https://www.linkedin.com/in/marta-biondo"
             }
         }
 
