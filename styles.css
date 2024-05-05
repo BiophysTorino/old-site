@@ -336,15 +336,14 @@ nav {
 
 .news-item {
     background-color: #fff;
-    border-left: 6px solid #333; /* Left border */
-    border-right: 6px solid #333; /* Right border */
+    border-left: 4px solid #b6abab; /* Left border */
     padding: 1.5rem;
     margin-bottom: 2rem;
     align-items: center; /* Vertically center items */
 }
 
 .news-item h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #333;
     margin-bottom: 0.5rem;
     width: 100%;
@@ -391,7 +390,7 @@ nav {
     }
 
     .news-item h2 {
-        font-size: 1rem;
+        font-size: 0.9rem;
         text-align: center; /* Center align the title */
     }
 
@@ -402,13 +401,13 @@ nav {
     }
 
     .date {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         margin-left: 0; /* Remove left margin on date */
         margin-right: 0; /* Remove right margin on date */
         text-align: center; /* Center align the date on smaller screens */
     }
     .summary{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     
 }
