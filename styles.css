@@ -557,6 +557,10 @@ nav {
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {
+    .paper {
+        font-size: 1rem;
+    }
+
     .popup-content {
         width: 90%; /* Adjust width to 90% of viewport width */
         padding: 10px; /* Reduce padding for smaller screens */
