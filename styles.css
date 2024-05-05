@@ -635,3 +635,40 @@ footer a:hover {
         font-size: 0.7rem; /* Decrease font size for smaller screens */
     }
 }
+/* Hamburger menu icon for mobile */
+.navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+.navbar-toggle span {
+    height: 2px;
+    width: 25px;
+    background-color: black;
+    margin-bottom: 4px;
+}
+
+/* Media query for mobile */
+@media (max-width: 768px) {
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .navbar-toggle {
+        display: flex;
+        margin-bottom: 8px;
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+    }
+}
+
