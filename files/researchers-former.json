@@ -5,7 +5,7 @@
             "title": "PhD Student",
             "image": "./images/biondo.jpg",
             "socials": {
-                "mail": "mailto:marta.biondo@unito.it",
+                "mail": "marta.biondo@unito.it",
                 "linkedin": "https://www.linkedin.com/in/marta-biondo"
             }
         },
@@ -14,7 +14,7 @@
             "title": "PhD Student",
             "image": "./images/Lazzardi.jpg",
             "socials": {
-                "mail": "mailto:Silvia.Lazzardi@unito.it",
+                "mail": "Silvia.Lazzardi@unito.it",
                 "linkedin": "https://www.linkedin.com/in/silvia-lazzardi-0870b315a/"
             }
         },
@@ -23,7 +23,7 @@
             "title": "PhD Student",
             "image": "./images/Zirattu.png",
             "socials": {
-                "mail": "mailto:antoniofrancesco.zirattu@unito.it"
+                "mail": "antoniofrancesco.zirattu@unito.it"
             }
         },
         {
@@ -31,7 +31,7 @@
             "title": "PhD Student",
             "image": "./images/fumagalli.jpg",
             "socials": {
-                "mail": "mailto:mariarita.fumagalli@unito.it"
+                "mail": "mariarita.fumagalli@unito.it"
             }
         },
         {
@@ -39,7 +39,7 @@
             "title": "PhD Student",
             "image": "./images/Argante.png",
             "socials": {
-                "mail": "mailto:lorenzo.argante@unito.it"
+                "mail": "lorenzo.argante@unito.it"
             }
         },
         {
@@ -47,7 +47,7 @@
             "title": "PhD Student",
             "image": "./images/rosanova2.jpg",
             "socials": {
-                "mail": "mailto:antonio.rosanova@gmail.com"
+                "mail": "antonio.rosanova@gmail.com"
             }
         },
         {
@@ -55,7 +55,7 @@
             "title": "PhD Student",
             "image": "./images/mazzolini.png",
             "socials": {
-                "mail": "mailto:andrea.mazzolini@studenti.unito.it"
+                "mail": "andrea.mazzolini@studenti.unito.it"
             }
         },
         {
@@ -63,7 +63,7 @@
             "title": "PhD Student",
             "image": "./images/colliva2.jpg",
             "socials": {
-                "mail": "mailto:colliva@to.infn.it"
+                "mail": "colliva@to.infn.it"
             }
         },
         {
@@ -71,7 +71,7 @@
             "title": "PhD Student",
             "image": "./images/reale2.jpg",
             "socials": {
-                "mail": "mailto:elisa.reale@unito.it"
+                "mail": "elisa.reale@unito.it"
             }
         },
         {
@@ -79,7 +79,7 @@
             "title": "PhD Student",
             "image": "./images/furlan.jpeg",
             "socials": {
-                "mail": "mailto:mattia.furlan@unito.it"
+                "mail": "mattia.furlan@unito.it"
             }
         },
         {
@@ -87,7 +87,7 @@
             "title": "PhD Student",
             "image": "./images/mottes.jpg",
             "socials": {
-                "mail": "mailto:francesco.mottes@unito.it"
+                "mail": "francesco.mottes@unito.it"
             }
         },
         {
@@ -95,7 +95,7 @@
             "title": "Post-Doc",
             "image": "./images/eandreot.jpg",
             "socials": {
-                "mail": "mailto:eleonora.andreotti@unito.it"
+                "mail": "eleonora.andreotti@unito.it"
             }
         }
 

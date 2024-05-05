@@ -168,6 +168,16 @@ body {
     object-fit: cover; /* Ensure the image covers the circular area */
 }
 
+.researcher hr {
+    width:800px;
+    text-align: left;
+    margin-left:0;
+}
+
+p.description {
+    max-width: 800px; /* Set a specific width */
+  }
+
 
 @media (max-width: 768px) {
     /* Styles applied when screen width is 768px or less (mobile devices) */
@@ -235,6 +245,10 @@ body {
         margin-right: 20px; /* Add spacing between image and text */
         flex-shrink: 0; /* Prevent image from shrinking */
         object-fit: cover; /* Ensure the image covers the circular area */
+    }
+
+    .researcher hr {
+        width:100%;
     }
     
     .researcher_info {

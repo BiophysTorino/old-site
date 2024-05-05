@@ -17,6 +17,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     researcherDiv.classList.add('researcher_former');
 
                     const socialLinks = Object.entries(researcher.socials).map(([platform, url]) => {
+                        // Check if the platform is 'email', then prepend 'mailto:' to the URL
+                        if (platform === 'mail') {
+                            url = `mailto:${url}`; // Add 'mailto:' to the URL
+                        }
+                        
+                        // Generate the HTML for the social link with the updated URL
                         return `<a href="${url}" target="_blank"><img src="images/icons/${platform}.svg" alt="${platform}"></a>`;
                     }).join('');
 
@@ -27,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="profile-details">
                             <h2>${researcher.name}</h2>
                             <p class="title">${researcher.title}</p>
+                            <p class="mail">${researcher.socials.mail}</p>
                             <div class="social-links">${socialLinks}</div>
                         </div>
                     `;

@@ -5,7 +5,7 @@
         "image": "images/michele.jpeg",
         "description": "Statistical Mechanics and Quantum Field Theory, with a side of Quantitative Biology",
         "socials": {
-            "mail": "mailto:michele.caselle@to.infn.it",
+            "mail": "michele.caselle@to.infn.it",
             "github": "https://github.com/mcaselle",
             "linkedin": "https://www.linkedin.com/in/michele-caselle-17107613/",
             "publications": "https://pubmed.ncbi.nlm.nih.gov/?term=caselle+michele",
@@ -19,7 +19,7 @@
         "image": "images/matteo.png",
         "description": "...",
         "socials": {
-            "mail": "mailto:matteo.osella@unito.it",
+            "mail": "matteo.osella@unito.it",
             "github": "https://github.com/matteo-osella",
             "linkedin": "https://www.linkedin.com/in/matteo-osella-54413058/",
             "publications": "https://pubmed.ncbi.nlm.nih.gov/?term=matteo+osella"
@@ -31,7 +31,7 @@
         "description": "...",
         "image": "images/valle2.png",
         "socials": {
-            "mail": "mailto:filippo.valle@unito.it",
+            "mail": "filippo.valle@unito.it",
             "linkedin": "https://www.linkedin.com/in/filippo-valle/",
             "github":"https://github.com/fvalle1"
         }
@@ -42,7 +42,7 @@
         "description": "...",
         "image": "images/Pizzini.jpg",
         "socials": {
-            "mail": "mailto:fletizia.pizzini@unito.it",
+            "mail": "fletizia.pizzini@unito.it",
             "github": "https://github.com/letiziapizzini",
             "linkedin": "https://linkedin.com/in//letizia-pizzini-ba9a061b6"
         }
@@ -54,7 +54,7 @@
         "description": "... ",
         "image": "images/davide.jpeg",
         "socials": {
-            "mail": "mailto:fdavide.pirovano@unito.it",
+            "mail": "davide.pirovano@unito.it",
             "linkedin": "https://www.linkedin.com/in/davide-pirovano-07aba5220/"
         }
     },
@@ -65,7 +65,7 @@
         "description": "Mostly neural networks dynamics and optimal transport, but I have a whole theory on the statistical mechanics of foosball Elos I can't wait to tell you about",
         "image": "images/fede.png",
         "socials": {
-            "mail": "mailto:federico.milanesio@unito.it",
+            "mail": "federico.milanesio@unito.it",
             "github": "https://github.com/FedericoMilanesio",
             "linkedin": "https://linkedin.com/in/federico-milanesio",
             "twitter": "https://twitter.com/FedeMilanesio"
@@ -78,7 +78,7 @@
         "description": "...",
         "image": "images/leo.jpeg",
         "socials": {
-            "mail": "mailto:leonardo.agasso@unito.it",
+            "mail": "leonardo.agasso@unito.it",
             "github": "https://github.com/LeonardoAgasso",
             "linkedin": "https://www.linkedin.com/in/leonardo-agasso-22ba561bb/",
             "twitter": "https://twitter.com/AgassoLeonardo"
@@ -91,7 +91,7 @@
         "description": "...",
         "image": "images/nico.jpeg",
         "socials": {
-            "mail": "mailto:niccolo.cirone@unito.it",
+            "mail": "niccolo.cirone@unito.it",
             "github": "https://github.com/niccociro",
             "linkedin": "https://www.linkedin.com/in/niccol%C3%B2-cirone-22548a168/"
         }
