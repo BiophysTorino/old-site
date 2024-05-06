@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <p><a href="${paper.link}" target="_blank" class="paper-title">${paper.title}</a></p>
                     <span class="journal">${paper.journal}${paper.volume ? ` ${paper.volume}` : ''}${paper.number ? `, ${paper.number}` : ''}</span>
                     <div class="cite-button">
-                        <button onclick="openCitePopup('${paper.title}', '${paper.author}', '${paper.journal}', '${paper.year}', '${paper.volume || ''}', '${paper.number || ''}')">Cite</button>
+                        <button onclick="openCitePopup('${paper.title}', '${paper.author}', '${paper.journal}', '${paper.year}', '${paper.volume || ''}', '${paper.number || ''}', '${paper.pages    || ''}')">Cite</button>
                     </div>
                 </div>
             `;
@@ -35,22 +35,25 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 });
 
-function openCitePopup(title, author, journal, year, volume, number) {
+function openCitePopup(title, author, journal, year, volume, number, pages) {
     const popupTitle = document.getElementById('popupTitle');
     const popupContent = document.getElementById('popupContent');
+    let first_author = author.split(",")
+    let first_surname = first_author[0].split(" ")
 
     if (popupTitle && popupContent) {
         popupTitle.textContent = 'BibTeX Citation: ' + title;
 
         // Construct the formatted BibTeX citation including volume and number if available
         const bibtexContent = `
-@article{${author}_${year},
+@article{${first_surname[first_surname.length-1]}_${year},
     title = {${title}},
     author = {${author}},
     journal = {${journal}},
     year = {${year}},
     ${volume ? `volume = {${volume}}` : ''}
     ${number ? `number = {${number}},` : ''}
+    ${pages ? `pages = {${pages}},` : ''}
 }`;
 
         // Apply left alignment to the popup content
