@@ -41,6 +41,7 @@ body {
     padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;
+    align-items: center;
 }
 
 .mission-item {
@@ -65,7 +66,7 @@ body {
 }
 
 .mission-image img {
-    width: 100%;
+    width: 90%;
     height: auto;
     display: block;
     border-radius: 8px;
@@ -75,6 +76,22 @@ body {
     width: auto;
     height: 80px;
     display: flex;
+}
+
+.mission-item a {
+    /* Styles for unvisited links */
+    color: rgb(0, 0, 0); /* Change color for unvisited links */
+    text-decoration: none; /* Remove underline from unvisited links */
+}
+
+.mission-item a:visited {
+    /* Styles for visited links */
+    color: rgb(0, 0, 0); /* Change color for visited links */
+}
+
+.mission-item a:hover {
+    /* Styles for link on hover (optional) */
+    text-decoration: underline; /* Add underline on hover */
 }
 
 /* Media query for mobile devices */
@@ -88,18 +105,16 @@ body {
     #mission {
         flex-direction: column; /* Stack missions vertically on smaller screens */
         align-items: center; /* Center items horizontally within the container */
-        margin: 10%;
+        margin: 5%;
     }
 
     .mission-item {
         flex: none; /* Reset flex property to default (no flex) */
         width: 100%; /* Set width to 100% for full width on smaller screens */
-        margin-bottom: 2rem; /* Add margin between mission items */
     }
 
     .mission-image {
-        order: -1; /* Move mission image above mission text */
-        margin-bottom: 1rem; /* Add spacing below the mission image */
+        order: 2; /* Move mission image above mission text */
     }
 
     .identity-logo img{
@@ -196,7 +211,7 @@ p.description {
     .mission-item,
     .mission-image {
         padding: 0; /* Remove padding on smaller screens */
-        margin-bottom: 20px; /* Add margin between items */
+        margin-bottom: 0px; /* Add margin between items */
     }
 
     .researcher-pair {
