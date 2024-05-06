@@ -3,7 +3,7 @@
         {
             "name": "Marta Biondo",
             "title": "PhD Student",
-            "image": "./images/biondo.jpg",
+            "image": "./images/profiles/biondo.jpg",
             "socials": {
                 "mail": "marta.biondo@unito.it",
                 "linkedin": "https://www.linkedin.com/in/marta-biondo"
@@ -12,7 +12,7 @@
         {
             "name": "Silvia Lazzardi",
             "title": "PhD Student",
-            "image": "./images/Lazzardi.jpg",
+            "image": "./images/profiles/Lazzardi.jpg",
             "socials": {
                 "mail": "Silvia.Lazzardi@unito.it",
                 "linkedin": "https://www.linkedin.com/in/silvia-lazzardi-0870b315a/"
@@ -21,7 +21,7 @@
         {
             "name": "Antonio Francesco Zirattu",
             "title": "PhD Student",
-            "image": "./images/Zirattu.png",
+            "image": "./images/profiles/Zirattu.png",
             "socials": {
                 "mail": "antoniofrancesco.zirattu@unito.it",
                 "linkedin": "https://www.linkedin.com/in/antonio-francesco-zirattu-412851230/"
@@ -30,7 +30,7 @@
         {
             "name": "Maria Fumagalli",
             "title": "PhD Student",
-            "image": "./images/fumagalli.jpg",
+            "image": "./images/profiles/fumagalli.jpg",
             "socials": {
                 "mail": "mariarita.fumagalli@unito.it"
             }
@@ -38,7 +38,7 @@
         {
             "name": "Lorenzo Argante",
             "title": "PhD Student",
-            "image": "./images/Argante.png",
+            "image": "./images/profiles/Argante.png",
             "socials": {
                 "mail": "lorenzo.argante@unito.it",
                 "linkedin": "https://www.linkedin.com/in/largante/"
@@ -47,7 +47,7 @@
         {
             "name": "Antonio Rosanova",
             "title": "PhD Student",
-            "image": "./images/rosanova2.jpg",
+            "image": "./images/profiles/rosanova2.jpg",
             "socials": {
                 "mail": "antonio.rosanova@gmail.com",
                 "linkedin": "https://www.linkedin.com/in/antonio-rosanova-27b49988/"
@@ -56,7 +56,7 @@
         {
             "name": "Andrea Mazzolini",
             "title": "PhD Student",
-            "image": "./images/mazzolini.png",
+            "image": "./images/profiles/mazzolini.png",
             "socials": {
                 "mail": "andrea.mazzolini@studenti.unito.it",
                 "linkedin": "https://www.linkedin.com/in/andrea-mazzolini-bb71a189/"
@@ -65,7 +65,7 @@
         {
             "name": "Alberto Colliva",
             "title": "PhD Student",
-            "image": "./images/colliva2.jpg",
+            "image": "./images/profiles/colliva2.jpg",
             "socials": {
                 "mail": "colliva@to.infn.it",
                 "linkedin": "https://www.linkedin.com/in/acolliva/"
@@ -74,7 +74,7 @@
         {
             "name": "Elisa Reale",
             "title": "PhD Student",
-            "image": "./images/reale2.jpg",
+            "image": "./images/profiles/reale2.jpg",
             "socials": {
                 "mail": "elisa.reale@unito.it"
             }
@@ -82,7 +82,7 @@
         {
             "name": "Mattia Furlan",
             "title": "PhD Student",
-            "image": "./images/furlan.jpeg",
+            "image": "./images/profiles/furlan.jpeg",
             "socials": {
                 "mail": "mattia.furlan@unito.it",
                 "linkedin": "https://www.linkedin.com/in/mattia-furlan-277527171/"
@@ -91,7 +91,7 @@
         {
             "name": "Francesco Mottes",
             "title": "PhD Student",
-            "image": "./images/mottes.jpg",
+            "image": "./images/profiles/mottes.jpg",
             "socials": {
                 "mail": "francesco.mottes@unito.it",
                 "linkedin": "https://www.linkedin.com/in/francesco-mottes"
@@ -100,7 +100,7 @@
         {
             "name": "Eleonora Andreotti",
             "title": "Post-Doc",
-            "image": "./images/eandreot.jpg",
+            "image": "./images/profiles/eandreot.jpg",
             "socials": {
                 "mail": "eleonora.andreotti@unito.it",
                 "linkedin": "https://www.linkedin.com/in/marta-biondo"
