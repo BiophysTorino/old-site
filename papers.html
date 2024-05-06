@@ -28,21 +28,28 @@
         <script src="scripts/nav.js"></script>
         <script src="scripts/nav-click.js"></script>
     </header>
-    <div class="container">
-    
-        
-        <div id="papersList">
-            <!-- Papers will be dynamically added here -->
-        </div>
 
-        <!-- Cite Popup -->
-        <div id="citePopup" class="popup">
-            <div class="popup-content">
-                <h2 id="popupTitle">BibTeX Citation</h2>
-                <pre id="popupContent">
-                    <!-- Dynamic content will be updated here -->
-                </pre>
-                <button onclick="closeCitePopup()">Close</button>
+    <div class="loading">
+        <img src="images/loading.gif" alt="Loading..." />
+    </div>
+    <script src="scripts/loading.js"></script>
+    <div class="content">
+        <div class="container">
+        
+            
+            <div id="papersList">
+                <!-- Papers will be dynamically added here -->
+            </div>
+
+            <!-- Cite Popup -->
+            <div id="citePopup" class="popup">
+                <div class="popup-content">
+                    <h2 id="popupTitle">BibTeX Citation</h2>
+                    <pre id="popupContent">
+                        <!-- Dynamic content will be updated here -->
+                    </pre>
+                    <button onclick="closeCitePopup()">Close</button>
+                </div>
             </div>
         </div>
     </div>
