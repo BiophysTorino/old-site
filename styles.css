@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto;
+    font-family: Roboto, Arial;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
@@ -264,7 +264,7 @@ p.description {
     }
     
     .profile-details p {
-        font-size: 0.8rem;
+        font-size: 1rem;
         color: #666;
         margin-bottom: 1rem;
     }
