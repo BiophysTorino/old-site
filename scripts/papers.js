@@ -19,9 +19,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <div class="paper-info">
                     <p><span class="author">${paper.author} (${paper.year})</span></p>
                     <p><a href="${paper.link}" target="_blank" class="paper-title">${paper.title}</a></p>
-                    <p><span class="journal">${paper.journal}</span></p>
+                    <span class="journal">${paper.journal}${paper.volume ? ` ${paper.volume}` : ''}${paper.number ? `, ${paper.number}` : ''}</span>
                     <div class="cite-button">
-                        <button onclick="openCitePopup('${paper.title}', '${paper.author}', '${paper.journal}', '${paper.year}')">Cite</button>
+                        <button onclick="openCitePopup('${paper.title}', '${paper.author}', '${paper.journal}', '${paper.year}', '${paper.volume || ''}', '${paper.number || ''}')">Cite</button>
                     </div>
                 </div>
             `;
@@ -35,21 +35,24 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 });
 
-function openCitePopup(title, author, journal, year) {
+function openCitePopup(title, author, journal, year, volume, number) {
     const popupTitle = document.getElementById('popupTitle');
     const popupContent = document.getElementById('popupContent');
 
     if (popupTitle && popupContent) {
         popupTitle.textContent = 'BibTeX Citation: ' + title;
 
-        // Construct the formatted BibTeX citation
+        // Construct the formatted BibTeX citation including volume and number if available
         const bibtexContent = `
 @article{${author}_${year},
     title = {${title}},
     author = {${author}},
     journal = {${journal}},
-    year = {${year}}
+    year = {${year}},
+    ${volume ? `volume = {${volume}}` : ''}
+    ${number ? `number = {${number}},` : ''}
 }`;
+
         // Apply left alignment to the popup content
         popupContent.style.textAlign = 'left';
         popupContent.textContent = bibtexContent;
@@ -58,9 +61,8 @@ function openCitePopup(title, author, journal, year) {
     const citePopup = document.getElementById('citePopup');
     if (citePopup) {
         citePopup.style.display = 'block';
-    }   
+    }
 }
-
 
 function closeCitePopup() {
     const citePopup = document.getElementById('citePopup');
@@ -68,4 +70,3 @@ function closeCitePopup() {
         citePopup.style.display = 'none';
     }
 }
-
