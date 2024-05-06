@@ -70,7 +70,51 @@ body {
     height: auto;
     display: block;
     border-radius: 8px;
+    cursor: pointer;
 }
+
+/* CSS for the image container */
+.mission-image {
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* CSS for the larger image display */
+#lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox-content {
+    text-align: center;
+}
+
+#lightbox img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    max-height: 70%;
+    border-radius: 5px;
+    background-color:white;
+}
+
+.image-description {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 1.1  em;
+}
+
 
 .identity-logo img{
     width: auto;
@@ -115,6 +159,11 @@ body {
 
     .mission-image {
         order: 2; /* Move mission image above mission text */
+    }
+
+    #lightbox img {
+        max-width: 90%;
+        max-height: 70%;
     }
 
     .identity-logo img{
