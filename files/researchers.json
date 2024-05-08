@@ -3,7 +3,7 @@
         "name": "Michele Caselle",
         "title": "Professor",
         "image": "images/profiles/michele.jpeg",
-        "description": "Statistical Mechanics and Quantum Field Theory, with a side of Quantitative Biology",
+        "description": "Interested in statistical Mechanics and Quantum Field Theory, with a side of Quantitative Biology",
         "socials": {
             "mail": "michele.caselle@to.infn.it",
             "github": "https://github.com/mcaselle",
@@ -28,7 +28,7 @@
     {
         "name": "Filippo Valle",
         "title": "Postdoc",
-        "description": "...",
+        "description": "Local expert on topic modeling and all things informatics",
         "image": "images/profiles/valle2.png",
         "socials": {
             "mail": "filippo.valle@unito.it",
@@ -39,19 +39,20 @@
     {
         "name": "Letizia Pizzini",
         "title": "PhD Student",
-        "description": "...",
+        "description": "My main interest lies in quantitative analysis of biological Systems, focusing on multiomics data integration, EEG and brain image data interpretation",
         "image": "images/profiles/Pizzini.jpg",
         "socials": {
             "mail": "fletizia.pizzini@unito.it",
             "github": "https://github.com/letiziapizzini",
-            "linkedin": "https://linkedin.com/in//letizia-pizzini-ba9a061b6"
+            "linkedin": "https://linkedin.com/in//letizia-pizzini-ba9a061b6",
+            "twitter": "https://twitter.com/lpizziniBioPhys"
         }
     },
 
     {
         "name": "Davide Pirovano",
         "title": "PhD Student",
-        "description": "... ",
+        "description": "Fewer classes are better, or something... I'm not really sure",
         "image": "images/profiles/davide.jpeg",
         "socials": {
             "mail": "davide.pirovano@unito.it",
@@ -62,7 +63,7 @@
     {
         "name": "Federico Milanesio",
         "title": "PhD Student",
-        "description": "Mostly neural networks dynamics and optimal transport, but I have a whole theory on the statistical mechanics of foosball Elos I can't wait to tell you about",
+        "description": "I mostly study neural networks dynamics and optimal transport, but I have a whole theory on the statistical mechanics of foosball Elos I can't wait to tell you about",
         "image": "images/profiles/fede.png",
         "socials": {
             "mail": "federico.milanesio@unito.it",
@@ -75,7 +76,7 @@
     {
         "name": "Leonardo Agasso",
         "title": "PhD Student",
-        "description": "...",
+        "description": "My main interests are systems biology and bioinformatics, I'm currently studying  the role of non-coding RNAs and gene duplication in shaping the vertebrate regulatory network",
         "image": "images/profiles/leo.jpg",
         "socials": {
             "mail": "leonardo.agasso@unito.it",
