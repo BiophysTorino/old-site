@@ -29,7 +29,7 @@
         "name": "Filippo Valle",
         "title": "Postdoc",
         "description": "Local expert on topic modeling and all things informatics",
-        "image": "images/profiles/valle.png",
+        "image": "images/profiles/valle.jpg",
         "socials": {
             "mail": "filippo.valle@unito.it",
             "linkedin": "https://www.linkedin.com/in/filippo-valle/",
@@ -52,7 +52,7 @@
     {
         "name": "Davide Pirovano",
         "title": "PhD Student",
-        "description": "Fewer classes are better, or something... I'm not really sure",
+        "description": "Have you ever asked yourself if becoming a bird-watching champion would help you to distinguish a parrot from a go-kart? Well, it turns out that sometimes it can be useful when training Neural Networks. My PhD research essentially focuses on that “sometimes”",
         "image": "images/profiles/davide.jpeg",
         "socials": {
             "mail": "davide.pirovano@unito.it",
