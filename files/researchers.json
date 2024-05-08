@@ -3,7 +3,7 @@
         "name": "Michele Caselle",
         "title": "Professor",
         "image": "images/profiles/michele.jpeg",
-        "description": "Interested in statistical Mechanics and Quantum Field Theory, with a side of Quantitative Biology",
+        "description": "Interested in Statistical Mechanics and Quantum Field Theory, with a side of Quantitative Biology",
         "socials": {
             "mail": "michele.caselle@to.infn.it",
             "github": "https://github.com/mcaselle",
@@ -17,7 +17,7 @@
         "name": "Matteo Osella",
         "title": "Associate professor",
         "image": "images/profiles/matteo.png",
-        "description": "...",
+        "description": "I lead our projects in machine learning and systems biology, but my true passion are scaling laws",
         "socials": {
             "mail": "matteo.osella@unito.it",
             "github": "https://github.com/matteo-osella",
