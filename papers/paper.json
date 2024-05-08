@@ -42,6 +42,16 @@
         "year": "2022"
       },
       {
+        "type": "article",
+        "author": "Marta Biondo, Abhyudai Singh, Michele Caselle, Matteo Osella",
+        "year": "2023",
+        "title": "Out-of-equilibrium gene expression fluctuations in the presence of extrinsic noise",
+        "volume": "20",
+        "journal": "Physical biology",
+        "doi": "10.1088/1478-3975/acea4e",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/37489881/"
+      },
+      {
         "type": "misc",
         "title": "The effect of a linear feedback mechanism in a homeostasis model",
         "link": "http://arxiv.org/abs/2303.03277",
